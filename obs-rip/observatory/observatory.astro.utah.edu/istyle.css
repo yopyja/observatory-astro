@@ -1,0 +1,117 @@
+@charset "utf-8";
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #0CC;
+	text-align: left;
+	vertical-align: text-top;
+	list-style-type: none;
+}
+h2 {font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #0CC;
+	text-align: left;
+	vertical-align: text-top;
+	list-style-type: none;
+}
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	color: #F9F9F9;
+	background-color: #000;
+	border: 0px double #90F;
+}
+
+h6 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: capitalize;
+	color: #9C0;
+	text-decoration: blink;
+}
+a:link {color:#FF0000;} 
+a:visited {color:#00FF00;} 
+a:hover {color:#FF00FF;} 
+a:active {color:#0000FF;}
+
+
+
+.hbuttons a{
+ display:block;
+ text-decoration: none;
+ font: bold 13px Arial;
+ color:#FFFFFF;
+ width: 100px;
+ height: 30px;
+ float: left;
+ display: inline;
+ margin-right: 0px;
+ margin-left: 31px;
+ 
+ background-image:url(astroinfo/sombrero_button_1.jpg);
+ background-repeat: no-repeat;
+ padding-top: 1px;
+ text-align:center;
+ }
+ 
+.hbuttons a:hover{
+ background-image:url(astroinfo/sombrero_button_2.jpg);
+ }
+ 
+ <style type="text/css">
+
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.thumbnail{
+position:relative;
+z-index: 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+z-index: 50;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+	position:absolute;
+	background-color: #000000;
+	padding: 5px;
+	left: -1000px;
+	border: 0px dashed gray;
+	visibility: hidden;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image on hover*/
+visibility: visible;
+top:inherit;
+left: 500px; /*position where enlarged image should offset horizontally */
+
+}
+
+
+
+</style>

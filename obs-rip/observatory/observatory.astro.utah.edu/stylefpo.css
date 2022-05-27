@@ -1,0 +1,62 @@
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #000000;
+	margin: 0; 
+	padding: 0;
+	text-align: center; 
+	color: #FF0000;
+}
+.thrColAbsHdr #container { 
+	position: relative;
+	width: 1024px;  
+	background:#000000;
+	margin: 0 auto; 
+	border: 1px solid #000000;
+	text-align: left; 
+} 
+
+.thrColAbsHdr #header { 
+	height: 60px; 
+	background:#000000; 
+	padding: 0 10px 0 20px;  
+} 
+.thrColAbsHdr #header h1 {
+	margin: 0; 
+	padding: 20px 0; 
+}
+.thrColAbsHdr #sidebar1 {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 300px;
+	background:#000000;
+	padding: 15px 10px 15px 20px; 
+}
+.thrColAbsHdr #sidebar2 {
+	position: absolute;
+	top: 60px;
+	right: 0;
+	width: 300px; 
+	background:#000000; 
+	padding: 15px 10px 15px 20px; 
+}
+.thrColAbsHdr #mainContent { 
+	margin: 0 350px; 
+	padding: 0 10px; 
+}
+.thrColAbsHdr #footer { 
+	padding: 0 10px 0 20px; 
+	background:#CCCCCC;
+} 
+.thrColAbsHdr #footer p {
+	margin: 0; 
+	padding: 10px 0; 
+}
+.fltrt { 
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
