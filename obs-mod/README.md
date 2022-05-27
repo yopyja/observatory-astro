@@ -1,1 +1,1 @@
-# Observatory Astro Modernization
+# Observatory Astro Modernization Blog

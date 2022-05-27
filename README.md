@@ -1,1 +1,1 @@
-# Observatory Astro Modernization
+# Observatory Astro Utah Edu
