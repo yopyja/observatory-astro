@@ -1,10 +1,13 @@
-import './App.css';
+import NavBar from "./navigation/NavBar";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <NavBar />
+      <div>
+        astro edu
+      </div>
+    </>
   );
 }
 
